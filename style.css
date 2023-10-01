@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --main-bg-color: #1f2630d6;
+    --font-family: 'Vazirmatn', sans-serif;
+}
+
+/* Global Styles */
+:root {
+    --main-bg-color: #1f2630d6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 13px;
+    background-color: #fff;
+    background-image: url('images/asaroma.svg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    color: #fff;
+}
+
+/* Main Content */
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+.star {
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+    background-color: #37404b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star img {
+    width: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.rates {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.rates .numbers {
+    background-color: #37404b;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.numbers:hover {
+    background-color: #ffc107;
+    color: #1f2630;
+    cursor: pointer;
+}
+
+.selected {
+    color: #ffc107;
+}
+
+button {
+    font-family: 'Vazirmatn';
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ffc107;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+button:hover,
+button:active {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 15px;
+    background-color: #ffc107;
+    color: #1f2630;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.thanks {
+    font-size: 30px;
+    margin-top: 20px;
+}
